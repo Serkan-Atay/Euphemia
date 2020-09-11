@@ -1,0 +1,25 @@
+.header {
+    background-image: url("../Notes/Euphemia.jpeg");
+    height: 36px;
+    width: 141px;
+    padding: 30px;
+}
+
+/* @keyframes bgAnimation {
+    from {background-color: aliceblue;}
+    to {background-color: darkred;}
+} */
+
+ body {
+        background-image: url("lndn.gif"), url("../Notes/Euphemia.jpeg");
+
+        /* Full height */
+        height: 100px; 
+
+        /* Center and scale the image nicely */
+        background-position: fixed, fixed;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, cover;
+        animation-name: bgAnimation;
+        animation-duration: 7s;
+} 
